@@ -1,4 +1,3 @@
-from logic import play_game
-
+from logic import game_play
 if __name__ == '__main__':
-    play_game()
+   game_play()

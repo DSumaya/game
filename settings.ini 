@@ -1,5 +1,0 @@
- [settings]
-   MIN_NUMBER = 1
-   MAX_NUMBER = 100
-   ATTEMPTS = 10
-   INITIAL_CAPITAL = 100
