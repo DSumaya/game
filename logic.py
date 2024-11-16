@@ -2,10 +2,10 @@ import random
 from decouple import config
 
 def game_play():
-    min_number = config("MIN_NUMBER")
-    max_number = config("MAX_NUMBER")
-    attempts = config("ATTEMPTS")
-    initial_capital = config("INITIAL_CAPITAL")
+    min_number = int(config("min_number"))
+    max_number = int(config("max_number"))
+    attempts = int(config("attempts"))
+    initial_capital = int(config("initial_capital"))
 
     print(f"Угадайте число от {min_number} до {max_number}. У вас {attempts} попыток.")
 
