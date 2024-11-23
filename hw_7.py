@@ -118,8 +118,6 @@
 #     insert_products(my_connection, ('Better', 350.8, 1))
 #     insert_products(my_connection, ('Eggs', 10.5, 10))
 #     insert_products(my_connection, ('Green Apple', 70.8, 1))
-#     insert_products(my_connection, ('Onion', 50,4, 5))
-#     insert_products(my_connection, ('Potato', 54,7, 6))
 #     update_quantity(my_connection, (18, 13))
 #     update_price(my_connection, (89, 7))
 #     delete_products(my_connection, 4)
