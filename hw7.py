@@ -95,7 +95,7 @@ def select_by_name(connection):
 sql_to_create_products_table = '''
 CREATE TABLE products (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    product_title VARCHAR(200) NOT NULL,
+    product_title VARCHAR(200) NOT NULL, не должна быть пустым
     price FLOAT(10, 2) NOT NULL DEFAULT 0.0,
     quantity INTEGER NOT NULL DEFAULT 0
 )
